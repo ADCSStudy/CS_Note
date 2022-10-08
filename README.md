@@ -11,7 +11,7 @@ CS를 공부하고 발표하고 기록합니다
 | 2 | 이예지 | 중앙처리장치(CPU) 작동 원리 | 연결 리스트 | 프로세스 & 스레드 |
 | 2 | 신재혁 | 조인 | TCP 3 way handshake & 4 way handshake | 클린코드와 시큐어코딩 |
 | 3 | 신재혁 | 캐시메모리 | Array vs ArrayList vs LinkedList | 프로세스의 주소 공간 |
-| 3 | 장윤아 | SQL Injection | UDP | TDD |
+| 3 | 장윤아 | SQL Injection | TCP/IP 흐름제어&혼잡제어 | TDD |
 | 4 | 장윤아 | 고정 소수점 & 부동 소수점 | 스택 & 큐 | 인터럽트 |
 | 4 | 이예지 |  SQL과 NOSQL의 차이 | 대칭키 & 공개키 | 애자일(Agile) |
 | 5 | 이예지 | 패리티 비트 & 해밍 코드 | 힙(Heap) | System Call |
