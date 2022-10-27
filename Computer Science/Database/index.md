@@ -28,3 +28,23 @@ __사용하면 좋은 경우__
 __Index 사용을 피해야 하는 경우__
 1) Data 중복도가 높은 Column
 2) DML(데이터 조작)이 자주 일어나는 Column
+
+
+__INSERT__
+기존 Block에 여유가 없을 때, 새로운 Data가 입력됨
+
+-> 새로운 Block을 할당 받은 후, Key를 옮기는 작업을 수행 (**많은 양의 Redo가 기록**되고, 유발)
+
+-> Index split 작업 동안, 해당 Block의 Key 값에 대해서 DML이 블로킹 됨... 대기 이벤트 발생
+
+
+__DELETE__
+[Table과 Index 상황 비교]
+Table에서 data가 delete 되는 경우 : Data가 지워지고, 다른 Data가 그 공간을 사용 가능
+Index에서 Data가 delete 되는 경우 : Data가 지워지지 않고, 사용 안 됨 표시만 해둠.
+-> Table의 Data 수와 Index의 Data 수가 다를 수 있음.
+
+
+__UPDATE__
+Table에서 update가 발생하면 -> Index는 Update 할 수 없음.
+Index에서는 Delete가 발생한 후, 새로운 작업의 Insert 작업 / 2배의 작업이 소요되어, 힘듦
