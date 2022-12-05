@@ -27,10 +27,15 @@ CS를 공부하고 발표하고 기록합니다
 | 10 | 장윤아 | 레디스 | Blocking I/O & Non-Blocking I/O | 경쟁 상태 |
 | 10 | 이예지 | 저장 프로시저 | 세마포어 & 뮤텍스 | 페이징과 세그먼테이션 |
 | 11 | 이예지 | 페이지 교체 알고리즘 | 메모리 | 파일시스템 |
-| 11 | 신재혁 |                            |  |  |
-| 12 | 신재혁 |                            |  |  |
-| 12 | 장윤아 |                            |  |  |
-
+| 11 | 신재혁 | 브라우저 동작 방법 | 쿠키 & 세션 | HTTP Request Methods |
+| 12 | 신재혁 | HTTP status code | Rest API | Web Server와 WAS |
+| 12 | 장윤아 | OAuth | JWT | 인증 방식 |
+| 13 | 장윤아 | 로깅 레벨 | UI와 UX | CSR&SSR |
+| 13 | 이예지 | 네이티브 앱&웹 앱&하이브리드 앱 | Vue.js와 React | PWA |
+| 14 | 이예지 | CSRF&XSS | Bean Scope | MVC FrameWork |
+| 14 | 신재혁 | SpringApplication | Test Code | JPA |
+| 15 | 신재혁 | 더티 체킹| Spring Security |  |
+| 15 | 장윤아 |  |  |  |
 
 ### 참고
 https://gyoogle.dev/blog/
